@@ -20,7 +20,7 @@ public class NumberComplement {
         System.out.println("The binary value of the input is: " + xb);
 
         int len = xb.length();
-        StringBuilder yb = new StringBuilder(xb);
+        StringBuffer yb = new StringBuffer(xb);
 
         for (int i = 0; i < len; i++) {
             if (xb.charAt(i) == '0') {
