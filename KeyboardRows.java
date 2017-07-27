@@ -5,9 +5,9 @@ American keyboard
 Input: ["Hello", "Alaska", "Dad", "Peace"]
 Output: ["Alaska", "Dad"]
 */
-import java.lang.*;
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class KeyboardRows {
     static final char[] row1 = {'q','w','e','r','t','y','u','i','o','p'};
@@ -27,7 +27,7 @@ public class KeyboardRows {
         System.out.println("Enter a line of words separated by comma: ");
 
         String[] input = br.readLine().split(",");
-        String[] output = findWords(input);
+        findWords(input);
     }
 
     public static Boolean containChars(String keyRow, String s) {

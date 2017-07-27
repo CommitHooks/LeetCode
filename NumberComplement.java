@@ -7,9 +7,9 @@ Output: 2
 Explanation: The binary representation of 5 is 101 (no leading zero bits), and its complement is 010. So you need to output 2.
 */
 
-import java.io.*;
-import java.util.*;
-import java.lang.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class NumberComplement {
 
