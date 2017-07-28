@@ -30,9 +30,9 @@ public class KeyboardRows {
         findWords(input);
     }
 
-    public static Boolean containChars(String keyRow, String s) {
+    public static boolean containChars(String keyRow, String s) {
         int len = s.length();
-        Boolean in = true;
+        boolean in = true;
 
         for (int i=0; i<len; i++) {
             if (keyRow.contains(s.substring(i,i+1))) {
@@ -51,7 +51,7 @@ public class KeyboardRows {
         String[] output = new String[numOfWords];
 
         String[] rowStr = new String[numOfWords];
-        Boolean[] in = new Boolean[NUM_ROWS];
+        boolean[] in = new boolean[NUM_ROWS];
 
         for (int i=0; i<numOfWords; i++) {
             words[i] = words[i].trim();
