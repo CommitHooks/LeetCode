@@ -69,7 +69,7 @@ public class HammingDistance {
 	
 	public static void main(final String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter two numbers below: ");
+		System.out.println("Enter two numbers below (one number per row): ");
 
 		int num = 0;
 		int[] array = new int[NUM_PARA];
