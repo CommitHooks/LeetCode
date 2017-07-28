@@ -45,7 +45,6 @@ public class FizzBuzz {
 				myList.add(Integer.toString(i));
 			}
 		}
-
 		return myList;
 	}
 
@@ -54,7 +53,7 @@ public class FizzBuzz {
 			throw new IllegalArgumentException("Usage: java FizzBuzz <n>");
 		}
 
-		int n = Integer.valueOf(args[0]);
+		int n = Integer.parseInt(args[0]);
 		System.out.println("n: " + n);
 		System.out.println(countToN(n));
 	}
