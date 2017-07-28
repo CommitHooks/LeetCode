@@ -34,7 +34,7 @@ public class SingleNumber {
 		int[] num = new int[len];
 		
 		for (int i = 0; i < str.length; i++) {
-			num[i] = Integer.valueOf(str[i]);
+			num[i] = Integer.parseInt(str[i]);
 		}
 		
 		System.out.println("The Single Number is :" + findNumber(num));
